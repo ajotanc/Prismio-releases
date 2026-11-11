@@ -23,23 +23,23 @@ O Prismio é só o reprodutor. Ele **não fornece nenhum conteúdo**: você usa 
 
 ## Baixar
 
-A versão mais recente fica sempre nesta página, em **Releases**. Escolha o seu sistema:
+A versão mais recente fica sempre na página de **[Releases](https://github.com/ajotanc/Prismio-releases/releases/latest)**. Todos os arquivos levam a versão e a plataforma no nome, para você saber de qual build cada um é:
 
 | Sistema | Arquivo |
 |---|---|
-| **Android TV e celular** | [Prismio.apk](https://github.com/ajotanc/Prismio-releases/releases/latest/download/Prismio.apk) |
-| **Windows** | [Prismio-Setup.exe](https://github.com/ajotanc/Prismio-releases/releases/latest/download/Prismio-Setup.exe) |
-| **macOS** | [Prismio-mac.dmg](https://github.com/ajotanc/Prismio-releases/releases/latest/download/Prismio-mac.dmg) |
-| **Linux** | [Prismio.AppImage](https://github.com/ajotanc/Prismio-releases/releases/latest/download/Prismio.AppImage), [Prismio.deb](https://github.com/ajotanc/Prismio-releases/releases/latest/download/Prismio.deb) ou [Prismio.tar.gz](https://github.com/ajotanc/Prismio-releases/releases/latest/download/Prismio.tar.gz) |
+| **Android TV e celular** | `Prismio_<versão>.apk` |
+| **Windows** | `Prismio_<versão>_x64-setup.exe` (instalador) ou `Prismio_<versão>_x64.msi` |
+| **macOS** | `Prismio_<versão>_universal.dmg` (Apple Silicon e Intel) |
+| **Linux** | `Prismio_<versão>_x86_64.AppImage`, `Prismio_<versão>_amd64.deb`, `Prismio_<versão>_x86_64.rpm` ou `Prismio_<versão>_x64.tar.gz` |
 
-O site oficial também tem os botões de download já escolhendo o sistema certo para você: **[prismio.ajotanc.com.br](https://prismio.ajotanc.com.br)**.
+O site oficial também tem os botões de download, já escolhendo o sistema certo para você: **[prismio.ajotanc.com.br](https://prismio.ajotanc.com.br)**.
 
 ### Instalando
 
 - **Android TV e celular:** abra o arquivo e permita instalar apps de fora da loja quando o Android pedir.
 - **Windows:** execute o instalador. Se o Windows mostrar um aviso de aplicativo desconhecido, escolha "Mais informações" e depois "Executar assim mesmo".
 - **macOS:** abra o arquivo, arraste o Prismio para Aplicativos e, na primeira vez, escolha "Abrir mesmo assim" em Ajustes > Privacidade e Segurança.
-- **Linux:** no AppImage, marque o arquivo como executável e abra. No pacote .deb, instale pelo gerenciador de pacotes. No .tar.gz, descompacte e abra o Prismio.
+- **Linux:** no AppImage, marque o arquivo como executável e abra. No pacote .deb (Debian, Ubuntu e derivadas) ou .rpm (Fedora, openSUSE), instale pelo gerenciador de pacotes. No .tar.gz, descompacte e abra o Prismio.
 
 ### Atualizações
 
